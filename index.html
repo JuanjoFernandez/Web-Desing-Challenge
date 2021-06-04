@@ -7,11 +7,13 @@
   <title>Bootstrap Demo</title>
 
   <!-- Bring in our bootstrap stylesheet -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <!-- Top navbar content -->
   <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -19,7 +21,8 @@
         Open Weather API Data Analysis
       </a>
       <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false">
           Plots
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -33,9 +36,11 @@
     </div>
   </nav>
 
-  <div class = "container">
-    <div class = "row">
-      <div clas = "col-md-10">
+  <!-- Outer most bootstrap grid 1 row 2 columns -->
+  <div class="container">
+    <div class="row">
+      <!-- Main content column -->
+      <div class="col-md-8">
         <h1>Welcome!!!!</h1>
         <p>
           This data analysis project consisted on creating a random list of 500+ cities, using
@@ -49,13 +54,50 @@
           markers with hotel information close by the city geographical center
         </p>
       </div>
-      <div clas = "col-md-2" >
-        
+      <!-- Side bar column -->
+      <div class="col-md-4">
+        <!-- Side bar visualization 1&2 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 13rem;">
+              <img src="assets\plot_images\temp_lat.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Temperature vs Latitude</h5>
+                <p class="card-text">Scatter plot of latitude vs temperature (°F).</p>
+                <a href="visualizations/TempLat.html" class="btn btn-primary">See this!!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 13rem;">
+              <img src="assets\plot_images\temp_lat.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Temperature vs Latitude</h5>
+                <p class="card-text">Scatter plot of latitude vs temperature (°F).</p>
+                <a href="visualizations/TempLat.html" class="btn btn-primary">See this!!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 13rem;">
+              <img src="assets\plot_images\temp_lat.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Temperature vs Latitude</h5>
+                <p class="card-text">Scatter plot of latitude vs temperature (°F).</p>
+                <a href="visualizations/TempLat.html" class="btn btn-primary">See this!!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of side bar visualization 1&2 -->
       </div>
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 
 </body>
-</html> 
+
+</html>
