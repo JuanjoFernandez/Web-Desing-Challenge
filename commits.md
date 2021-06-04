@@ -12,3 +12,7 @@
 - Adds links to images
 - Adds working links
 - Adds visualizations template
+- Adds all visualization content
+- Fixes broken links
+- Adds correlations page
+- Adds script to transform data into html table
