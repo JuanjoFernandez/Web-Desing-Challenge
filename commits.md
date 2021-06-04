@@ -9,3 +9,4 @@
 - Adds landing content
 - Fixes container width
 - Adds sidebar content
+- Adds links to images
