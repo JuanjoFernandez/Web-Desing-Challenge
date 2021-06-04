@@ -10,3 +10,5 @@
 - Fixes container width
 - Adds sidebar content
 - Adds links to images
+- Adds working links
+- Adds visualizations template
