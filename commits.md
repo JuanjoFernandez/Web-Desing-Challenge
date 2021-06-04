@@ -8,3 +8,4 @@
 ## *06/04/2021*
 - Adds landing content
 - Fixes container width
+- Adds sidebar content
