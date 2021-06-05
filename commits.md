@@ -22,3 +22,6 @@
 - Fixes maps.html
 - Deletes Templat.html
 - Restores templat.html
+
+## *06/05/2021*
+- Formats navbar
