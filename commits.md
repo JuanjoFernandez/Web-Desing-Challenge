@@ -16,3 +16,6 @@
 - Fixes broken links
 - Adds correlations page
 - Adds script to transform data into html table
+- Adds responsive table
+- Adds maps
+- Adds Bootswatch styling
