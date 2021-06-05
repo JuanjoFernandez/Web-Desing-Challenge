@@ -6,3 +6,9 @@ max-width: 1800px;
 .bg-light {
 background-color: black;    
 }
+
+@media (max-width: 600px){
+.image {
+    max-width: 400px;
+}
+}
