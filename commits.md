@@ -26,3 +26,4 @@
 ## *06/05/2021*
 - Formats navbar
 - Fixes navbar dynamic behaviour
+- New navbar to all pages

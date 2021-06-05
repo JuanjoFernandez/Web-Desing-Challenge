@@ -11,31 +11,62 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
-    <!-- Top navbar content -->
+      <!-- Top navbar content -->
+  <!-- For large and medium screens -->
+  <div class="d-none d-md-block">
     <nav class="navbar navbar-light bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src=https://prod-discovery.edx-cdn.org/media/course/image/1bab9c85-a855-4abb-a326-9cbec5781c4c-f04010033293.small.jpg
-                    alt="" height="100" class="d-inline-block align-text-top">
-                <a style="color: lightgray; font-size: xx-large;">Open Weather API Data Analysis</a>
-            </a>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Latitude vs
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="templat.html">Temperature</a></li>
-                    <li><a class="dropdown-item" href="tempcloud.html">Cloudiness</a></li>
-                    <li><a class="dropdown-item" href="temphumi.html">Humidity</a></li>
-                    <li><a class="dropdown-item" href="tempwind.html">Wind Speed</a></li>
-                </ul>
-                <a type="button" class="btn btn-outline-light" href="correlations.html">Correlations</a>
-                <a type="button" class="btn btn-outline-light" href="maps.html">Maps</a>
-                <a type="button" class="btn btn-outline-light" href="data.html">Data</a>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src=https://prod-discovery.edx-cdn.org/media/course/image/1bab9c85-a855-4abb-a326-9cbec5781c4c-f04010033293.small.jpg
+            alt="" height="100" class="d-inline-block align-text-top">
+          <a style="color: lightgray; font-size: xx-large;">Open Weather API Data Analysis</a>
+        </a>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Latitude vs
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="templat.html">Temperature</a></li>
+            <li><a class="dropdown-item" href="tempcloud.html">Cloudiness</a></li>
+            <li><a class="dropdown-item" href="temphumi.html">Humidity</a></li>
+            <li><a class="dropdown-item" href="tempwind.html">Wind Speed</a></li>
+          </ul>
+          <a type="button" class="btn btn-outline-light" href="correlations.html">Correlations</a>
+          <a type="button" class="btn btn-outline-light" href="maps.html">Maps</a>
+          <a type="button" class="btn btn-outline-light" href="data.html">Data</a>
         </div>
+      </div>
     </nav>
+  </div>
+  <!-- For small screens -->
+  <div class="d-none d-sm-block d-md-none">
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand">
+        <a style="color:darkslategray; font-size: medium;">Open Weather API Data Analysis</a>
+      </a>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="index.html">Home</a></li>
+          <li><a class="dropdown-item" href="templat.html">Latitude vs Temperature</a></li>
+          <li><a class="dropdown-item" href="tempcloud.html">Latitude vs Cloudiness</a></li>
+          <li><a class="dropdown-item" href="temphumi.html">Latitude vs Humidity</a></li>
+          <li><a class="dropdown-item" href="tempwind.html">Latitude vs Wind Speed</a></li>
+          <li><a class="dropdown-item" href="correlations.html">Correlations</a></li>
+          <li><a class="dropdown-item" href="data.html">Data</a></li>
+        </ul>
+        <a type="button" class="btn btn-outline-light" href="correlations.html">Correlations</a>
+        <a type="button" class="btn btn-outline-light" href="maps.html">Maps</a>
+        <a type="button" class="btn btn-outline-light" href="data.html">Data</a>
+      </div>
+    </nav>
+  </div>
+  <!-- End of navbar -->
 
     <h1>Correlation Plots</h1>
 </head>
