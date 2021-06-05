@@ -19,3 +19,4 @@
 - Adds responsive table
 - Adds maps
 - Adds Bootswatch styling
+- Fixes maps.html
