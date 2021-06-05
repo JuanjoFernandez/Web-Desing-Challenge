@@ -29,3 +29,4 @@
 - New navbar to all pages
 - Adds css media queries to images
 - Adds link to site title
+- Adds readme
