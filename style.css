@@ -2,3 +2,7 @@
 margin: 10px;
 max-width: 1800px;
 }
+
+.bg-light {
+background-color: black;    
+}
