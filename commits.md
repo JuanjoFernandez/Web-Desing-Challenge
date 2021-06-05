@@ -20,3 +20,5 @@
 - Adds maps
 - Adds Bootswatch styling
 - Fixes maps.html
+- Deletes Templat.html
+- Restores templat.html
